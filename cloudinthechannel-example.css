@@ -1,0 +1,192 @@
+/*Element Styles*/
+
+@font-rule {
+    
+}
+
+body {
+
+
+}
+div {
+
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5b6f7f;
+    font-size: 28px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #054172;
+    font-size: 64px;
+}
+h2 {
+
+}
+h3 {
+
+} 
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+form {
+
+}
+ol {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+
+}
+b {
+
+}
+
+/*Colors*/
+.primary-color-1 {
+    background: #11A2DC;
+}
+.primary-color-2 {
+    background: #006799;
+}
+.primary-color-3 {
+    background: #05455E;
+}
+.secondary-color-1 {
+    background: #11A2DC;
+}
+.secondary-color-2 {
+    background: #006799;
+}
+.secondary-color-3 {
+    background: #05455E;
+}
+.highlight-color-1 {
+    background: #FF3366;
+}
+.highlight-color-2 {
+    background: #7ED321;
+}
+.primary-background {
+    background-color: #fff;
+}
+.secondary-background {
+    background-color: #05455E;
+}
+
+
+/*******Common Styles*******/
+
+/*Button Styles as in Figma*/
+.button {
+    box-sizing: border-box;
+    background: #006799;
+    border: 1px solid #006799;
+    border-radius: 41px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.button-secondary { 
+    box-sizing: border-box;
+    background: #46D662;
+    border: 4px solid #46D662;
+    border-radius: 69px;
+    width: 91px;
+    height: 39px;
+    font-family: font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    padding: 10px 24px;
+}
+
+/* Buttons as in Web Style Guide */
+.button-primary {
+    box-sizing: border-box;
+    background: #006799;
+    border-radius: 41px;
+    padding: 5px 30px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    outline:none;
+}
+
+.button-sec {
+    box-sizing: border-box;
+    background: #05455E;
+    border-radius: 41px;
+    padding: 5px 30px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    outline:none; 
+}
+/*Card Styles*/
+.card {
+    position: absolute;
+    width: 295px;
+    height: 182px;
+    background: #FFFFFF;
+    opacity: 0.48;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.69);
+    border-radius: 21px;
+    position: absolute;
+    width: 215px;
+    height: 108px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #054172;
+}
+.card .background-image {
+    background-image: url("image.jpg");
+}
