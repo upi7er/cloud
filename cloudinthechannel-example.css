@@ -1,7 +1,8 @@
 /*Element Styles*/
 
 @font-rule {
-    
+   src: url('ubuntu.woff2') format('woff2'),
+        url('roboto.woff') format('woff'); 
 }
 
 body {
